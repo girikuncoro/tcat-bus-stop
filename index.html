@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" />
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ithaca bus stop</title>
+</head>
+<body>
+  <div id='map'>
+  </div>
+  
+  <div id='selections' class="selections">
+    <a href='#' class="show">Choose what supermarkets to display</a>
+    <div class='content'>
+      <a href='#' class="hide"></a>
+      <div id="toggles">
+      </div>
+    </div>
+  </div>
+
+  <div id='loading'>
+  </div>
+  
+  <div id='selected'>
+    <h1>Explore Ithaca TCAT bus stops</h1>
+  </div>
+
+  <div id='about'>
+    <a href='#' class="show">About</a>
+    <p class='content'>
+      Explore Ithaca TCAT bus stops using a voronoi diagram. Created by Minmin Jin, Min Xia, Giri Kuncoro, powered by data from <a href="http://tcatbus.com/">TCAT bus</a>. <br />
+      Reference: <a href="http://chriszetter.com/blog/2014/06/15/building-a-voronoi-map-with-d3-and-leaflet/">Chris Zetter's Voronoi Map</a>
+    <a href='#' class="hide">Hide</a>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js"></script>
+  <script src="voronoi_map.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
