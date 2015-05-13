@@ -19,3 +19,7 @@ d3.select("#img")
   .append("img")
   .attr("src", point.img)
   .attr("width", 200);
+
+document.getElementById("currentTime").innerHTML = getCurrentTimeString();
+getMostRecentSchedule(point.id);
+

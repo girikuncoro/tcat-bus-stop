@@ -7,6 +7,7 @@ L.marker([42.4447, -76.4826]).addTo(map)
 
 var selectedCell;
 var url = 'data/busstop_data.json';
+var getMostRecentSchedule = getMostRecentSchedule;
 // initialSelection = d3.set(['Tesco', 'Sainsburys']);
 voronoiMap(map, url);
 
