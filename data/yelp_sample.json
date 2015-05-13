@@ -1,0 +1,935 @@
+{
+    "region": {
+        "span": {
+            "latitude_delta": 0.058750232523948398, 
+            "longitude_delta": 0.075886797791099525
+        }, 
+        "center": {
+            "latitude": 42.442213195532446, 
+            "longitude": -76.499404098995939
+        }
+    }, 
+    "total": 243, 
+    "businesses": [
+        {
+            "is_claimed": false, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/gola-osteria-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 14, 
+            "name": "Gola Osteria", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/gola-osteria-ithaca", 
+            "is_closed": false, 
+            "phone": "6072730333", 
+            "snippet_text": "From the exemplary service to the incredible food this restaurant has it all. The furniture is beautiful and top quality. Cocktails were tart and sweet....", 
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/qh9640zFy6aGiDiI5hheGA/ms.jpg", 
+            "categories": [
+                [
+                    "Italian", 
+                    "italian"
+                ]
+            ], 
+            "display_phone": "+1-607-273-0333", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "gola-osteria-ithaca", 
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/Zafxo528Z-dOwzLjUmxWlg/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "115 S Quarry St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "115 S Quarry St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.436939199999998, 
+                    "longitude": -76.487922699999999
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.5, 
+            "mobile_url": "http://m.yelp.com/biz/saigon-kitchen-ithaca", 
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png", 
+            "review_count": 220, 
+            "name": "Saigon Kitchen", 
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png", 
+            "url": "http://www.yelp.com/biz/saigon-kitchen-ithaca", 
+            "is_closed": false, 
+            "phone": "6072578881", 
+            "snippet_text": "EVERYTHING is good! There isn't anything that I wouldn't mind eating again. Favorites include Crispy Squid, Vietnamese Steak, Wonton Noodle Soup, Crispy...", 
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/pxQqTBM-_O2ZxgxqQZUAnA/ms.jpg", 
+            "categories": [
+                [
+                    "Vietnamese", 
+                    "vietnamese"
+                ], 
+                [
+                    "Asian Fusion", 
+                    "asianfusion"
+                ]
+            ], 
+            "display_phone": "+1-607-257-8881", 
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png", 
+            "id": "saigon-kitchen-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/zCBjJaMNnK2inY8j9ZgQcQ/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "526 W State St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "526 W State St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439498899999997, 
+                    "longitude": -76.507461500000005
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": false, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/just-a-taste-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 202, 
+            "name": "Just A Taste", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/just-a-taste-ithaca", 
+            "is_closed": false, 
+            "id": "just-a-taste-ithaca", 
+            "phone": "6072779463", 
+            "snippet_text": "What a great little spot right in the center of a cool little downtown core.\n\nOlder daughter and I were anxiously awaiting the start of a foodie / culinary...", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/lj5wLndmqw9fr-C5cW9P_Q/ms.jpg", 
+            "categories": [
+                [
+                    "Tapas Bars", 
+                    "tapas"
+                ]
+            ], 
+            "display_phone": "+1-607-277-9463", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1387873998, 
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/ap00TYSnFBnC9wULvZ2phw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "116 N Aurora St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "116 N Aurora St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.440120700000001, 
+                    "longitude": -76.496070900000007
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/maxies-supper-club-and-oyster-bar-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 188, 
+            "name": "Maxie's Supper Club & Oyster Bar", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/maxies-supper-club-and-oyster-bar-ithaca", 
+            "is_closed": false, 
+            "phone": "6072724136", 
+            "snippet_text": "Highlights:\n-Free Cornbread and Fresh Oysters (Happy hour!) are two things I love about this place.\n-The fried chicken Tuesdays special is really good too....", 
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/mw_JRi4EWoFcMpfsdkk79Q/ms.jpg", 
+            "categories": [
+                [
+                    "Cajun/Creole", 
+                    "cajun"
+                ], 
+                [
+                    "Seafood", 
+                    "seafood"
+                ]
+            ], 
+            "display_phone": "+1-607-272-4136", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "maxies-supper-club-and-oyster-bar-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/lg4tRMnZQId-93EmBs1dGw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "635 W State St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "635 W State St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.438983999999998, 
+                    "longitude": -76.510116999999994
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 5.0, 
+            "mobile_url": "http://m.yelp.com/biz/le-cafe-cent-dix-ithaca-2", 
+            "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", 
+            "review_count": 15, 
+            "name": "Le Cafe Cent-Dix", 
+            "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", 
+            "url": "http://www.yelp.com/biz/le-cafe-cent-dix-ithaca-2", 
+            "is_closed": false, 
+            "phone": "6073190750", 
+            "snippet_text": "I was skeptical of the 5 star rating..... And I think it was.\nExcellent service and food.\nWill definitely return on my next trip to Ithaca\nReally enjoyed...", 
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/0IR66GuMk5ZLp6FIHdVC2g/ms.jpg", 
+            "categories": [
+                [
+                    "French", 
+                    "french"
+                ]
+            ], 
+            "display_phone": "+1-607-319-0750", 
+            "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", 
+            "id": "le-cafe-cent-dix-ithaca-2", 
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/VMpR95YchDfwd_0qt4_mgA/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "110 N Aurora St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "110 N Aurora St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439979600000001, 
+                    "longitude": -76.495887800000006
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 3.5, 
+            "mobile_url": "http://m.yelp.com/biz/agava-ithaca-2", 
+            "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png", 
+            "review_count": 142, 
+            "name": "Agava", 
+            "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png", 
+            "url": "http://www.yelp.com/biz/agava-ithaca-2", 
+            "is_closed": false, 
+            "id": "agava-ithaca-2", 
+            "phone": "6073194366", 
+            "snippet_text": "I love love love this place and am a regular. Even though their drink menu tends to be heavy on the citrusy cocktails, they have enough other spirits to...", 
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/Gez1zi5K-OUlO94PC_O9QQ/ms.jpg", 
+            "categories": [
+                [
+                    "Bars", 
+                    "bars"
+                ], 
+                [
+                    "Southern", 
+                    "southern"
+                ]
+            ], 
+            "display_phone": "+1-607-319-4366", 
+            "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1408532686, 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "381 Pine Tree Rd", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "381 Pine Tree Rd"
+                ], 
+                "coordinate": {
+                    "latitude": 42.438301099999997, 
+                    "longitude": -76.464767499999994
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.5, 
+            "mobile_url": "http://m.yelp.com/biz/felicias-atomic-lounge-and-cupcakery-ithaca", 
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png", 
+            "review_count": 51, 
+            "name": "Felicia's Atomic Lounge and Cupcakery", 
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png", 
+            "url": "http://www.yelp.com/biz/felicias-atomic-lounge-and-cupcakery-ithaca", 
+            "is_closed": false, 
+            "phone": "6072732219", 
+            "snippet_text": "Our bartender was fantastic. We told her what we were in the mood for and she explained and guided us to selecting one of their lavender lemonades which was...", 
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/dC0Ex-2ihTQXmq5OxqsYLw/ms.jpg", 
+            "categories": [
+                [
+                    "Lounges", 
+                    "lounges"
+                ], 
+                [
+                    "Breakfast & Brunch", 
+                    "breakfast_brunch"
+                ], 
+                [
+                    "Desserts", 
+                    "desserts"
+                ]
+            ], 
+            "display_phone": "+1-607-273-2219", 
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png", 
+            "id": "felicias-atomic-lounge-and-cupcakery-ithaca", 
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/Oxaq2GES-epgTvYVCgB1VA/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "508 W State St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "508 W State St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439484999999998, 
+                    "longitude": -76.506575999999995
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/ithaca-beer-co-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 123, 
+            "name": "Ithaca Beer Co", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/ithaca-beer-co-ithaca", 
+            "is_closed": false, 
+            "phone": "6072730766", 
+            "snippet_text": "Have been here a few times and the food is always great!  \n\nCame today on a beautiful late Saturday afternoon.  The place was very busy forgetting about...", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/WGwAh34tRbF7foSgYpaHNQ/ms.jpg", 
+            "categories": [
+                [
+                    "Breweries", 
+                    "breweries"
+                ], 
+                [
+                    "American (New)", 
+                    "newamerican"
+                ]
+            ], 
+            "display_phone": "+1-607-273-0766", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "ithaca-beer-co-ithaca", 
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/wymWl7Hg4TWX0kASoILG5A/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "122 Ithaca Beer Rd", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "122 Ithaca Beer Rd"
+                ], 
+                "coordinate": {
+                    "latitude": 42.415508544385197, 
+                    "longitude": -76.533898097991894
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/mercato-bar-and-kitchen-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 54, 
+            "name": "Mercato Bar & Kitchen", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/mercato-bar-and-kitchen-ithaca", 
+            "is_closed": false, 
+            "id": "mercato-bar-and-kitchen-ithaca", 
+            "phone": "6073195171", 
+            "snippet_text": "Is the best restaurant in Ithaca.", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/4kqQtvuMM82BFj2ppNEyiQ/ms.jpg", 
+            "categories": [
+                [
+                    "Italian", 
+                    "italian"
+                ], 
+                [
+                    "Wine Bars", 
+                    "wine_bars"
+                ]
+            ], 
+            "display_phone": "+1-607-319-5171", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1390598599, 
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/_mQtdkiVk32PdUdUYW3s9Q/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "108 N Aurora St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "108 N Aurora St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439979600000001, 
+                    "longitude": -76.495887800000006
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/carriage-house-cafe-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 142, 
+            "name": "Carriage House Cafe", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/carriage-house-cafe-ithaca", 
+            "is_closed": false, 
+            "id": "carriage-house-cafe-ithaca", 
+            "phone": "6076450152", 
+            "snippet_text": "I've only ever had one meal here - the breakfast sandwich. That's because it's so good, I haven't been able to make myself get anything else. The lattes are...", 
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/X_XPRHUCvDxzN_3SlgPbXw/ms.jpg", 
+            "categories": [
+                [
+                    "Coffee & Tea", 
+                    "coffee"
+                ], 
+                [
+                    "Sandwiches", 
+                    "sandwiches"
+                ], 
+                [
+                    "Breakfast & Brunch", 
+                    "breakfast_brunch"
+                ]
+            ], 
+            "display_phone": "+1-607-645-0152", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1427210469, 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/JMxPVFgktHffmZQvt1wwvg/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "305 Stewart Ave", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "305 Stewart Ave"
+                ], 
+                "coordinate": {
+                    "latitude": 42.442000999999998, 
+                    "longitude": -76.489624000000006
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/zazas-cucina-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 84, 
+            "name": "ZaZa's Cucina", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/zazas-cucina-ithaca", 
+            "is_closed": false, 
+            "phone": "6072739292", 
+            "snippet_text": "This is one of my favorite restaurants to go in Ithaca. Their pasta and seafood menu items are always good. It is relatively pricey but it's a good place to...", 
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/CN5JlJCDh9dN7hYiuemV2A/ms.jpg", 
+            "categories": [
+                [
+                    "Italian", 
+                    "italian"
+                ]
+            ], 
+            "display_phone": "+1-607-273-9292", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "zazas-cucina-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/lg4tRMnZQId-93EmBs1dGw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "622 Cascadilla St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "622 Cascadilla St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.444686889648402, 
+                    "longitude": -76.508209228515597
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.5, 
+            "mobile_url": "http://m.yelp.com/biz/gorgers-subs-ithaca-2", 
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png", 
+            "review_count": 54, 
+            "name": "Gorgers Subs", 
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png", 
+            "url": "http://www.yelp.com/biz/gorgers-subs-ithaca-2", 
+            "is_closed": false, 
+            "phone": "6073195046", 
+            "snippet_text": "Amazing sandwich! \n\nI'm so glad I stumbled upon this place while doing some law school nonsense. Their buffalo chicken sandwich is what dreams are made of....", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/mGWuafO0lASpe83gJg4aPw/ms.jpg", 
+            "categories": [
+                [
+                    "Salad", 
+                    "salad"
+                ], 
+                [
+                    "Soup", 
+                    "soup"
+                ], 
+                [
+                    "Sandwiches", 
+                    "sandwiches"
+                ]
+            ], 
+            "display_phone": "+1-607-319-5046", 
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png", 
+            "id": "gorgers-subs-ithaca-2", 
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/7QdFx0wb-L6En7h9CG2ViQ/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "116 W State St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "116 W State St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439676636462998, 
+                    "longitude": -76.499625617058001
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": false, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/the-heights-cafe-and-grill-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 64, 
+            "name": "The Heights Cafe & Grill", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/the-heights-cafe-and-grill-ithaca", 
+            "is_closed": false, 
+            "phone": "6072574144", 
+            "snippet_text": "Pan seared bass: Incredibly crispy that paired so well with the yogurt sauce. Carrots had a sweet glaze that made it delicous.\n\nRack of lamb: tender,...", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/lCdh8pEIrllMSb3FVlKX0g/ms.jpg", 
+            "categories": [
+                [
+                    "American (New)", 
+                    "newamerican"
+                ]
+            ], 
+            "display_phone": "+1-607-257-4144", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "the-heights-cafe-and-grill-ithaca", 
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/lA7yKHaCTr8Z8nKhuS7-xQ/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "Community Corners Center", 
+                    "903 Hanshaw Rd", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "Community Corners Center", 
+                    "903 Hanshaw Rd"
+                ], 
+                "coordinate": {
+                    "latitude": 42.468917846679702, 
+                    "longitude": -76.4796142578125
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": false, 
+            "rating": 3.5, 
+            "mobile_url": "http://m.yelp.com/biz/ithaca-ale-house-ithaca", 
+            "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png", 
+            "review_count": 140, 
+            "name": "Ithaca Ale House", 
+            "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png", 
+            "url": "http://www.yelp.com/biz/ithaca-ale-house-ithaca", 
+            "is_closed": false, 
+            "phone": "6072567977", 
+            "snippet_text": "It was a beautiful, sunny Monday. 3:30 in the afternoon. Hardly any restaurants were open, as 3:30 is an usual time to dine (lunch or dinner!?). I, along...", 
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/Bd7a6PXX7hKDXcuWEYz0ow/ms.jpg", 
+            "categories": [
+                [
+                    "American (New)", 
+                    "newamerican"
+                ], 
+                [
+                    "Bars", 
+                    "bars"
+                ]
+            ], 
+            "display_phone": "+1-607-256-7977", 
+            "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png", 
+            "id": "ithaca-ale-house-ithaca", 
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/iu6sTA5C0p895y7e6ocvwQ/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "111 N Aurora St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "111 N Aurora St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.439848259091399, 
+                    "longitude": -76.495588570833206
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": false, 
+            "rating": 4.5, 
+            "mobile_url": "http://m.yelp.com/biz/thai-basil-restaurant-ithaca", 
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png", 
+            "review_count": 21, 
+            "name": "Thai Basil Restaurant", 
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png", 
+            "url": "http://www.yelp.com/biz/thai-basil-restaurant-ithaca", 
+            "is_closed": false, 
+            "id": "thai-basil-restaurant-ithaca", 
+            "phone": "6073194722", 
+            "snippet_text": "My wife and I have visited the restaurant twice (including last night), and have gotten take-out a few times, and have yet to be disappointed by a dish....", 
+            "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/iVSX9rwCYeCbJa8c3bbsqA/ms.jpg", 
+            "categories": [
+                [
+                    "Thai", 
+                    "thai"
+                ]
+            ], 
+            "display_phone": "+1-607-319-4722", 
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png", 
+            "menu_provider": "eat24", 
+            "menu_date_updated": 1426613879, 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "118 W State St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "118 W State St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.4395296, 
+                    "longitude": -76.4997477
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/ithaca-bakery-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 128, 
+            "name": "Ithaca Bakery", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/ithaca-bakery-ithaca", 
+            "is_closed": false, 
+            "phone": "6072737110", 
+            "snippet_text": "I have eaten at Ithaca Bakery numerous times since moving to Ithaca in the fall. I have had nothing but awesome experiences. I have some picky eaters in my...", 
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/9VGnDrAm-kRsvgZlrNKl0g/ms.jpg", 
+            "categories": [
+                [
+                    "Delis", 
+                    "delis"
+                ], 
+                [
+                    "Bakeries", 
+                    "bakeries"
+                ], 
+                [
+                    "American (New)", 
+                    "newamerican"
+                ]
+            ], 
+            "display_phone": "+1-607-273-7110", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "ithaca-bakery-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "400 N Meadow St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "400 N Meadow St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.442699400000002, 
+                    "longitude": -76.508758499999999
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.5, 
+            "mobile_url": "http://m.yelp.com/biz/coal-yard-cafe-ithaca", 
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png", 
+            "review_count": 11, 
+            "name": "Coal Yard Cafe", 
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png", 
+            "url": "http://www.yelp.com/biz/coal-yard-cafe-ithaca", 
+            "is_closed": false, 
+            "phone": "6072770734", 
+            "snippet_text": "This is a great little spot that has high quality food for reasonable prices. Can get a made-to-order omelette made in minutes with French Bistro quality....", 
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/PFxOZfDw0N8OnHE34FFuLg/ms.jpg", 
+            "categories": [
+                [
+                    "Bagels", 
+                    "bagels"
+                ], 
+                [
+                    "Coffee & Tea", 
+                    "coffee"
+                ], 
+                [
+                    "Sandwiches", 
+                    "sandwiches"
+                ]
+            ], 
+            "display_phone": "+1-607-277-0734", 
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png", 
+            "id": "coal-yard-cafe-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/BV86Ic1qhbValXahYn3akw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "143 Maple Ave", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "143 Maple Ave"
+                ], 
+                "coordinate": {
+                    "latitude": 42.440927899999998, 
+                    "longitude": -76.475824099999997
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/istanbul-turkish-kitchen-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 25, 
+            "name": "Istanbul Turkish Kitchen", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/istanbul-turkish-kitchen-ithaca", 
+            "is_closed": false, 
+            "phone": "6073453333", 
+            "snippet_text": "Love this place. \n\nOur food was amazing, fresh and healthy. \n\nWe def will add them to our list of regular Ithaca restaurant options. Fun to have another...", 
+            "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/qRYn81EpyKGjl4ZAltHMqA/ms.jpg", 
+            "categories": [
+                [
+                    "Turkish", 
+                    "turkish"
+                ]
+            ], 
+            "display_phone": "+1-607-345-3333", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "id": "istanbul-turkish-kitchen-ithaca", 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/Se7PakznSDd9mRUG4cQnBQ/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "311 3rd St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "311 3rd St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.4466228485107, 
+                    "longitude": -76.505219042301206
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": true, 
+            "rating": 3.5, 
+            "mobile_url": "http://m.yelp.com/biz/northstar-house-ithaca", 
+            "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png", 
+            "review_count": 92, 
+            "name": "Northstar House", 
+            "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png", 
+            "url": "http://www.yelp.com/biz/northstar-house-ithaca", 
+            "is_closed": false, 
+            "id": "northstar-house-ithaca", 
+            "phone": "6072168580", 
+            "snippet_text": "Have been eating at Northstar twice a week for the past two months - Friday nights for dinner, Saturday morning for brunch. I gave 4 out of 5 stars because...", 
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/sTodPLSFtKJAZvgbg0GAKA/ms.jpg", 
+            "categories": [
+                [
+                    "American (New)", 
+                    "newamerican"
+                ]
+            ], 
+            "display_phone": "+1-607-216-8580", 
+            "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1407716938, 
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/xXhwJp_tlCvKkpPThnxQNw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "202 E Falls St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 9.5, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "202 E Falls St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.452793999999997, 
+                    "longitude": -76.497374600000001
+                }, 
+                "state_code": "NY"
+            }
+        }, 
+        {
+            "is_claimed": false, 
+            "rating": 4.0, 
+            "mobile_url": "http://m.yelp.com/biz/lincoln-street-diner-ithaca", 
+            "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png", 
+            "review_count": 68, 
+            "name": "Lincoln Street Diner", 
+            "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png", 
+            "url": "http://www.yelp.com/biz/lincoln-street-diner-ithaca", 
+            "is_closed": false, 
+            "id": "lincoln-street-diner-ithaca", 
+            "phone": "6072161616", 
+            "snippet_text": "This is the sort of small old time timey place with interesting food like you see on Diners Driveins and Dives.  The decor is decidedly out of date on...", 
+            "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/eQuTvYQoOk7EDhcWHKsBbQ/ms.jpg", 
+            "categories": [
+                [
+                    "Diners", 
+                    "diners"
+                ]
+            ], 
+            "display_phone": "+1-607-216-1616", 
+            "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png", 
+            "menu_provider": "single_platform", 
+            "menu_date_updated": 1387873885, 
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/mmmMqxqzc2ykOMp0dnUwCw/ms.jpg", 
+            "location": {
+                "city": "Ithaca", 
+                "display_address": [
+                    "309 E Lincoln St", 
+                    "Ithaca, NY 14850"
+                ], 
+                "geo_accuracy": 8.0, 
+                "postal_code": "14850", 
+                "country_code": "US", 
+                "address": [
+                    "309 E Lincoln St"
+                ], 
+                "coordinate": {
+                    "latitude": 42.451919599999997, 
+                    "longitude": -76.496871900000002
+                }, 
+                "state_code": "NY"
+            }
+        }
+    ]
+}
