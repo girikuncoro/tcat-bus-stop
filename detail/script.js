@@ -1,7 +1,6 @@
 var pointString = window.sessionStorage.getItem('point');
 var point = JSON.parse(pointString);
 
-
 var loc = [point.lat, point.lon];
 var map = L.mapbox.map('map', 'zetter.i73ka9hn')
       .setView(loc, 15);

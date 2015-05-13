@@ -18,6 +18,7 @@ getMostRecentSchedule = function(stopid) {
             }
         })
         if (!schedules) {
+            noBus();
             return;
         }
 
@@ -51,10 +52,7 @@ getMostRecentSchedule = function(stopid) {
 function handleDOM(mostRecentSchedule) {
     var ul = document.getElementById("schedules");
     if (!mostRecentSchedule[0]) {
-        var li = document.createElement("li");
-        var noBus = document.createTextNode("No bus today");
-        li.appendChild(noBus);
-        ul.appendChild(li);
+        noBus();
         return;
     }
     
@@ -89,6 +87,13 @@ function handleDOM(mostRecentSchedule) {
         li.appendChild(div2);
         ul.appendChild(li);
     });
+}
+function noBus() {
+    var ul = document.getElementById("schedules");
+    var li = document.createElement("li");
+    var noBus = document.createTextNode("No buses this time");
+    li.appendChild(noBus);
+    ul.appendChild(li);
 }
 
 /**
