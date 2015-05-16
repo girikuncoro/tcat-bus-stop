@@ -34,6 +34,8 @@ showHide = function(selector) {
 // }
 
 voronoiMap = function(map, url, placesData, initialSelections) {
+  var fillVoronoi;
+
   var showBuilding = false;
 
   var places = {},
@@ -258,7 +260,7 @@ voronoiMap = function(map, url, placesData, initialSelections) {
       return inside;
     }
 
-    var fillVoronoi = function (point) {
+    fillVoronoi = function (point) {
       var countPlaces = 0;   
 
       place.forEach(function (p) {
@@ -308,22 +310,28 @@ voronoiMap = function(map, url, placesData, initialSelections) {
       .style('fill', function(d) { return '#' + d.color } )
       .attr("r", 2);
 
-    // show or hide building (the colored voronoi segment)
-    $(".square").click(function(){
-      showBuilding = !showBuilding;
-      if (showBuilding) {
-        d3.selectAll("path")
-          .style("stroke-width", 5)
-          .style("fill", fillVoronoi)
-          .style("opacity",0.2); 
-      } else {
-        d3.selectAll("path")
-          .style("stroke-width", 1)
-          .style("fill","none"); 
-      }
-      
-    });
   }
+
+    // show or hide building (the colored voronoi segment)
+  $(".square").click(function(){
+    showBuilding = !showBuilding;
+    if (showBuilding) {
+      d3.selectAll("path")
+        .style("stroke-width", 8)
+        .style("fill", fillVoronoi)
+        .style("opacity",0.2); 
+
+      $(this).attr('value', 'Without buildings');
+    } else {
+      d3.selectAll("path")
+        .style("stroke-width", 1)
+        .style("fill","none")
+        .style("opacity",1); 
+
+      $(this).attr('value', 'With buildings');
+    }
+  
+  });
 
   var getColor = function (numberOfPlaces) {
     if (numberOfPlaces > 5) {
