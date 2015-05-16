@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/detail.css" />
+
+<div class="detail-container container-fluid">
+    <div class="detail row">
+        <div id='map' class="col-sm-8 col-sm-offset-2 col-xs-12"></div>
+    </div>
+
+    <div class="row">
+        <div class="area col-sm-8 col-sm-offset-2 col-xs-12">
+            <div class="btn btn-default area-name">
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                <span id="area_name"></span>
+            </div>
+            <a href="#/map" class="btn btn-default back-to-map">
+                <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span><span> Back to Map</span>
+            </a>
+        </div>
+    </div>
+
+   <!--  <div class="row">
+    <div id="img" class="col-sm-8 col-sm-offset-2 col-xs-12"></div>
+    </div> -->
+
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-12 bus_schedules">
+            <div class="panel panel-default" id="schedule-panel">
+                <div class="panel-heading">
+                    <h3 id="currentTime" class="panel-title"></h3>
+                </div>
+<!--                 <div class="panel-body" id="nobus">
+                </div> -->
+                <ul id="schedules-list" class="list-group schedules">
+                    <!-- <li class="list-group-item"><span id="route" class="route">route</span><span id="time" class="time">time</span></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

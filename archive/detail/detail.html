@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+<link href="style.css" rel="stylesheet" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ithaca bus stop</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <div id='map' class="col-sm-8 col-sm-offset-2 col-xs-12"></div>
+    </div>
+
+    <div id="detail">
+        <div class="row">
+        <div class="area col-sm-8 col-sm-offset-2 col-xs-12">
+            <div class="btn btn-default area_name">
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                <span id="area_name"></span>
+            </div>
+        </div>
+        </div>
+
+       <!--  <div class="row">
+        <div id="img" class="col-sm-8 col-sm-offset-2 col-xs-12"></div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12 bus_schedules">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 id="currentTime" class="panel-title"></h3>
+                    </div>
+                    <div class="panel-body" id="nobus">
+                    </div>
+                    <ul id="schedules" class="list-group schedules">
+                        <!-- <li class="list-group-item"><span id="route" class="route">route</span><span id="time" class="time">time</span></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js"></script>
+  <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+
+  <script src="bus_schedule.js"></script>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,57 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  /*background: url("geometry.png");*/
+  /*background-color: #ccc;*/
+}
+
+input:focus {
+    outline: none;
+}
+.container {
+  width: 50%;
+  margin: 0;
+}
+
+#map {
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+.area_name {
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+.btn-default {
+    color: #A2A2A2;
+    background-color: #EFEDEA;
+}
+
+.panel-default>.panel-heading {
+    background-color: #EFEDEA;
+}
+.panel-title {
+    color: #666;
+}
+.schedules .route,
+.schedules .time {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.schedules .route {
+    border-right: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    .area {
+        padding: 0px;
+    }
+
+    .bus_schedules {
+        padding: 0;
+    }
+}

@@ -89,11 +89,9 @@ function handleDOM(mostRecentSchedule) {
     });
 }
 function noBus() {
-    var ul = document.getElementById("schedules");
-    var li = document.createElement("li");
+    var p = document.getElementById("nobus");
     var noBus = document.createTextNode("No buses this time");
-    li.appendChild(noBus);
-    ul.appendChild(li);
+    p.appendChild(noBus);
 }
 
 /**

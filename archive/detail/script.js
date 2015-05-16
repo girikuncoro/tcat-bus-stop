@@ -11,7 +11,7 @@ L.marker(loc).addTo(map)
 
 // schedules
 // area
-d3.select("#detail #area .body").html(point.area);
+d3.select("#detail #area_name").html(point.area);
 // schedule
 
 d3.select("#img")

@@ -1,5 +1,9 @@
-var map = L.mapbox.map('map', 'zetter.i73ka9hn')
-      .setView([42.4447, -76.4826], 14);
+var map = L.mapbox.map('map', 'zetter.i73ka9hn', {
+        minZoom: 6,
+        maxZoom: 18,
+        maxBounds: [[42.460016,-76.528616],[42.430783,-76.428317]]
+    })
+    .setView([42.4447, -76.4826], 14);
 
 var current = {};
 navigator.geolocation.getCurrentPosition(function(position) {
@@ -22,7 +26,6 @@ navigator.geolocation.getCurrentPosition(function(position) {
 var selectedCell;
 var url = 'data/busstop_data.json';
 var getMostRecentSchedule = getMostRecentSchedule;
-// initialSelection = d3.set(['Tesco', 'Sainsburys']);
 voronoiMap(map, url);
 
 
