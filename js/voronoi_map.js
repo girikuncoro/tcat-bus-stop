@@ -71,35 +71,39 @@ voronoiMap = function(map, url, placesData, initialSelections) {
   }
 
   var drawPlacesSelection = function() {
-    var circle = [{"x": 10, "y":10, "r": 5, "value":1, "color": getColor(1)},
-              {"x": 50, "y":10, "r": 5, "value":3, "color": getColor(3)},
-              {"x": 90, "y":10, "r": 5, "value":5, "color": getColor(5)},
-              {"x": 130, "y":10, "r": 5, "value":'5+', "color": getColor(6)}];
+    showHide('#selections');
+
+    var circle = [{"x": 10, "y":30, "r": 5, "value":1, "color": getColor(1)},
+              {"x": 50, "y":30, "r": 5, "value":5, "color": getColor(5)},
+              {"x": 90, "y":30, "r": 5, "value":10, "color": getColor(9)},
+              {"x": 130, "y":30, "r": 5, "value":'10+', "color": getColor(11)}];
 
     var svg = d3.select("#legend").append('svg')
                 .attr("width",190)
-                .attr("height",20);
+                .attr("height",50);
 
-    var circles = svg.selectAll("circle")
-                    .data(circle)
-                    .enter()
-                    .append("circle");
-
-    circles
-      .attr("cx", function (d) { return d.x; })
-      .attr("cy", function (d) { return d.y; })
-      .attr("r", function (d) { return d.r; })
-      .style("fill", function (d) { return d.color; })
-    
-    var textLabels = svg.selectAll("text")
+    svg.selectAll("circle")
         .data(circle)
         .enter()
-        .append("text");
+      .append("circle")
+        .attr("cx", function (d) { return d.x; })
+        .attr("cy", function (d) { return d.y; })
+        .attr("r", function (d) { return d.r; })
+        .style("fill", function (d) { return d.color; })
+    
+    svg.selectAll("text")
+        .data(circle)
+        .enter()
+      .append("text")
+        .attr("x", function (d) { return d.x + 10; })
+        .attr("y", function (d) { return d.y + 5; })
+        .text(function (d) { return d.value; });
 
-    textLabels
-      .attr("x", function (d) { return d.x + 10; })
-      .attr("y", function (d) { return d.y + 5; })
-      .text(function (d) { return d.value; });
+    svg.append("text")
+        .attr("x", 5)
+        .attr("y", 10)
+        .text("Number of buildings")
+        .style("font-weight", "bold");
 
     var labels = d3.select('#square').selectAll('input')
         .data(placesData)
@@ -114,13 +118,13 @@ voronoiMap = function(map, url, placesData, initialSelections) {
     labels.append("span")
       .text(function(d) {
         if (d.includes('foods')) {
-          return 'food places';
+          return ' food places';
         } else if (d.includes('drink')) {
-          return 'drink places';
+          return ' drink places';
         } else if (d.includes('campus')) {
-          return 'campus building';
+          return ' campus building';
         } else {
-          return 'places'
+          return ' places'
         }
       });
   }
@@ -334,16 +338,16 @@ voronoiMap = function(map, url, placesData, initialSelections) {
   });
 
   var getColor = function (numberOfPlaces) {
-    if (numberOfPlaces > 5) {
-      return "blue";
-    } else if (numberOfPlaces > 4) {
-      return "green";
+    if (numberOfPlaces > 10) {
+      return "#2b83ba";
+    } else if (numberOfPlaces > 5) {
+      return "#abdda4";
     } else if (numberOfPlaces > 2) {
-      return "yellow";
+      return "#fdae61";
     } else if (numberOfPlaces > 0) {
-      return "red";
+      return "#d7191c";
     } else {
-      return "grey";
+      return "#ffffbf";
     }
   }
 
