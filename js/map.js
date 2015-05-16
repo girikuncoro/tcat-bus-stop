@@ -4,11 +4,11 @@ var map = function() {
 
 function mapPage() {
     var map = L.mapbox.map('map', 'zetter.i73ka9hn', {
-        minZoom: 6,
+        minZoom: 10,
         maxZoom: 18,
         maxBounds: [[42.460016,-76.528616],[42.430783,-76.428317]]
     })
-    .setView([42.4447, -76.4826], 14);
+    .setView([42.4447, -76.4826], 15);
 
     var current = {};
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -30,8 +30,9 @@ function mapPage() {
 
     var selectedCell;
     var url = 'data/busstop_data.json';
+    var places = ['data/ithaca_foods.json','data/ithaca_drink.json','data/campus_data.json'];
     var getMostRecentSchedule = getMostRecentSchedule;
-    voronoiMap(map, url);
+    voronoiMap(map, url, places);
 
 
     function withinIthaca(currentLocation) { 
