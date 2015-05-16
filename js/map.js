@@ -37,19 +37,11 @@ function mapPage() {
 
     function withinIthaca(currentLocation) { 
         var leftTop = {lat: "42.460016", lon: "-76.528616"},
-            rightTop = {lat: "42.455783", lon: "-76.436310"},
-            leftBottom = {lat: "42.419794", lon: "-76.520078"},
             rightBottom = {lat: "42.430783", lon: "-76.428317"};
 
         var lat = currentLocation.latitude,
             lon = currentLocation.longitude;
 
-        if (lat > Math.max(leftTop.lat, rightTop.lat) || lat < Math.min(leftBottom.lat, rightBottom.lat)) {
-            return false;
-        }
-        if (lon < Math.min(leftTop.lon, leftBottom.lon) || lon < Math.max(rightTop.lon, rightBottom.lon)) {
-            return false;
-        }
-        return true;
+        return (lat <= leftTop.lat && lat >= rightBottom.lat && lon <= rightBottom.lon && lon >= leftTop.lon);
     }
 }

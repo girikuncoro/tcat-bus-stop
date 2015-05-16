@@ -21,4 +21,5 @@ d3.select("#img")
 
 document.getElementById("currentTime").innerHTML = getCurrentTimeString();
 getMostRecentSchedule(point.id);
+getMostPopRestaurant(loc);
 

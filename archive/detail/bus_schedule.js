@@ -63,6 +63,7 @@ function handleDOM(mostRecentSchedule) {
         route = document.createTextNode("route"),
         time = document.createTextNode("Scheduled Arrival");
 
+
         div1.className = "route";
         div2.className = "time";
         div1.appendChild(route);
@@ -195,4 +196,32 @@ function compareTime(time, time2) {
         }
     }
 }
+
+
+// function getMostPopRestaurant(loc){
+//   var restaurant;
+//   d3.json("../data/ithaca_foods.json", function(error, data) {
+//      restaurant = data;   
+//   });
+  
+//   getItem(restaurant);
+  
+// }
+
+// function compare(position1, position2){
+//   var dist1 = Math.sqrt((position1.latitude-loc[0])*(position1.latitude-loc[0])+(position1.longitude-loc[1])*(position1.longitude-loc[1]));
+//   var dist2 = Math.sqrt((position2.latitude-loc[0])*(position2.latitude-loc[0])+(position2.longitude-loc[1])*(position2.longitude-loc[1]));
+//   if(dist1 < dist2) return 1;
+//   else if(dist1 > dist2) return -1;
+//   return 0;
+// }
+
+// function getItem(restaurant) {
+//     var bucket = new buckets.PriorityQueue(compare);
+//     for (var i = 0; i < 339; i++) {
+//         bucket.add(restaurant[i].location.coordinate);
+//     };
+//     var a = bucket.dequeue();
+//     console.log(a); //returns 1, not 100
+// } 
 
