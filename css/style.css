@@ -7,7 +7,11 @@ body {
   font-size: 14px;
   background: #EFEDEA;
 }
-
+a {
+    text-decoration: none;
+    color: #3A7607;
+    cursor: pointer;
+}
 p {
   margin: 0;
   margin-bottom: 10px;
@@ -149,20 +153,29 @@ p {
 }
 
 @media (max-width: 480px) {
-  #selected {
-    box-sizing: border-box;
-    width: 80%;
-    height: 32px;
-  }
+    #selected {
+        box-sizing: border-box;
+        width: 80%;
+        height: 34px;
+        bottom: 15px;
+        left: 0px;
+    }
 
-  #selected h1 {
-    font-size: 15px;
-    line-height: 15px;
-    font-weight: bold;
-  }
+    #selected h1 {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+
+    #about {
+        height: 34px;
+        bottom: 15px;
+        right: 0px;
+        box-sizing: border-box;
+    }
 }
 
 .mapbox-control-info {
-  display: none !important;
+    display: none !important;
 }
 
