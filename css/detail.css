@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 input:focus {
     outline: none;
 }
@@ -38,12 +42,28 @@ input:focus {
     border-right: 1px solid #ccc;
 }
 
-@media (min-width: 768px) {
-    .area {
-        padding: 0px;
-    }
 
-    .bus_schedules {
+.restaurant-list a.restaurant_name {
+    color: #3A7607;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.restaurant_categories span {
+    margin-right: 3px;
+}
+.restaurant_review::before {
+    content: '"';
+}
+.restaurant_review::after {
+    content: '"';
+}   
+
+
+@media (min-width: 768px) {
+    .area,
+    .bus_schedules,
+    .restaurants {
         padding: 0;
-    }
+    } 
 }

@@ -28,7 +28,7 @@ function detailPage() {
 
     document.getElementById("currentTime").innerHTML = getCurrentTimeString();
     getMostRecentSchedule(point.id);
-    
+    getMostPopRestaurant(loc);
 
     function parseURLParams(url) {
         var queryStart = url.indexOf("?") + 1,
