@@ -17,9 +17,9 @@ function mapPage() {
 
         // current location with Ithaca
         if (withinIthaca(current)) {
-            L.marker([current.latitude, current.longitude]).addTo(map);
-                // .bindPopup('Hi there!')
-                // .openPopup();
+            L.marker([current.latitude, current.longitude]).addTo(map)
+                .bindPopup('Your current location')
+                .openPopup();
         } else {
             L.marker([42.4447, -76.4826]).addTo(map);
                 // .bindPopup('Hi there!')

@@ -294,7 +294,7 @@ voronoiMap = function(map, url, placesData, initialSelections) {
         .attr("d", buildPathFromPoint)
         .on('click', selectPoint)
         .classed("selected", function(d) { return lastSelectedPoint == d} )
-        .style("stroke-width", 5)
+        .style("stroke-width", 8)
         .style("fill", fillVoronoi)
         .style("opacity",0.2);
     }
@@ -332,20 +332,20 @@ voronoiMap = function(map, url, placesData, initialSelections) {
         .style("fill","none")
         .style("opacity",1); 
 
-      $(this).attr('value', 'With buildings');
+      $(this).attr('value', 'Show buildings');
     }
   
   });
 
   var getColor = function (numberOfPlaces) {
     if (numberOfPlaces > 10) {
-      return "#2b83ba";
-    } else if (numberOfPlaces > 5) {
-      return "#abdda4";
-    } else if (numberOfPlaces > 2) {
-      return "#fdae61";
-    } else if (numberOfPlaces > 0) {
       return "#d7191c";
+    } else if (numberOfPlaces > 5) {
+      return "#fdae61";
+    } else if (numberOfPlaces > 2) {
+      return "#2b83ba";
+    } else if (numberOfPlaces > 0) {
+      return "#abdda4";
     } else {
       return "#ffffbf";
     }

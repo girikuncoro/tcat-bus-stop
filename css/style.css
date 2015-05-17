@@ -6,12 +6,18 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   background: #EFEDEA;
+  min-width:280px;
 }
 a {
     text-decoration: none;
-    color: blue;
+    color: #4d90fe;
     cursor: pointer;
 }
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
 p {
   margin: 0;
   margin-bottom: 10px;
@@ -91,7 +97,7 @@ p {
 }
 
 #button {
-  top: 142px;
+  top: 148px;
   right: 10px;
   background: #FFF;
   padding-bottom: 10px;
@@ -222,3 +228,41 @@ p {
     display: none !important;
 }
 
+.button {
+  width: 100%;
+  margin: 0 auto;
+  background: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
+  background-image: -ms-linear-gradient(top, #4d90fe, #4787ed);
+  background-image: -o-linear-gradient(top, #4d90fe, #4787ed);
+  background-image: linear-gradient(to bottom, #4d90fe, #4787ed);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3079ED 1px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+  background-image: -moz-linear-gradient(top, #4d90fe, #357ae8);
+  background-image: -ms-linear-gradient(top, #4d90fe, #357ae8);
+  background-image: -o-linear-gradient(top, #4d90fe, #357ae8);
+  background-image: linear-gradient(to bottom, #4d90fe, #357ae8);
+  text-decoration: none;
+}
+
+.button:active {
+  -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
+}
+
+.button:focus {
+  outline:0;
+}
