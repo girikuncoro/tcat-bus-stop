@@ -323,7 +323,7 @@ voronoiMap = function(map, url, placesData, initialSelections) {
       d3.selectAll("path")
         .style("stroke-width", 8)
         .style("fill", fillVoronoi)
-        .style("opacity",0.2); 
+        .style("opacity",.2); 
 
       $(this).attr('value', 'Without buildings');
     } else {
