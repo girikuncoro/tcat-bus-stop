@@ -15,7 +15,7 @@ function mapPage() {
         current.latitude = position.coords.latitude;
         current.longitude = position.coords.longitude;
 
-        // current location with Ithaca
+        // current location within Ithaca
         if (withinIthaca(current)) {
             L.marker([current.latitude, current.longitude]).addTo(map)
                 .bindPopup('Your current location')

@@ -9,9 +9,11 @@ input:focus {
 .detail #map {
   height: 300px;
   border: 1px solid #ccc;
+  background: #EFEDEA;
 }
 
-.btn-default {
+.btn-default,
+.disabled {
     text-align: center;
     width: 100%;
     color: #A2A2A2;

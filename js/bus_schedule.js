@@ -4,8 +4,8 @@
  */
 getMostRecentSchedule = function(stopid) {
     var datetime= getCurrentTime()
-        day = datetime[0],
-        time = datetime.splice(1),
+        day = datetime[2],
+        time = datetime.splice(3),
         meridiem = datetime[3];
 
     d3.json("data/bus_schedule_data.json", function(data) {
@@ -100,7 +100,7 @@ function getCurrentTime() {
         hour = hour0 < 12? hour0: hour0 - 12,
         min = date.getMinutes(),
         meridiem = hour0 < 12? "AM": "PM",
-        datetime = [day, hour, min, meridiem];
+        datetime = [date.getMonth(), date.getDate(), day, hour, min, meridiem];
     return datetime;
 }
 
@@ -109,8 +109,37 @@ function getCurrentTime() {
  */
 function getCurrentTimeString() {
     var time = getCurrentTime();
-    var timeStr = time[1] + ":" + (time[2] < 10? "0": "") + time[2] + " " + time[3];
+    var timeStr = time[3] + ":" + (time[4] < 10? "0": "") + time[4] + " " + time[5] + ", " + getWeekday(time[2]) + ", " + getMonthday(time[0]) + " " + time[1];
     return timeStr;
+}
+function getWeekday(i) {
+    switch(i) {
+        case 0: return "Sunday";  
+        case 1: return "Monday";  
+        case 2: return "Tuesday";  
+        case 3: return "Wednesday";  
+        case 4: return "Thursday";  
+        case 5: return "Friday";  
+        case 6: return "Saturday";  
+        default: return "";
+    }
+}
+function getMonthday(i) {
+    switch(i) {
+        case 0: return "Jan";
+        case 1: return "Feb";
+        case 2: return "Mar";
+        case 3: return "Apr";
+        case 4: return "May";
+        case 5: return "Jun";
+        case 6: return "Jul";
+        case 7: return "Aug";
+        case 8: return "Sep";
+        case 9: return "Oct";
+        case 10: return "Nov";
+        case 12: return "Dec";
+        default: return "";
+    }
 }
 
 /**

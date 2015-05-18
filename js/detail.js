@@ -6,12 +6,15 @@ var detail = function() {
 function detailPage() {
     var url = window.location.hash;
     var point = parseURLParams(url);
-    console.log(point);
 
     var loc = [point.lat, point.lon];
     var map = L.mapbox.map('map', 'zetter.i73ka9hn')
           .setView(loc, 15);
 
+    map.on('ready', function() {
+        setTimeout(function() {map.invalidateSize(); }, 100);
+    });
+    
     L.marker(loc).addTo(map)
         .bindPopup(point.name)
         .openPopup();
